@@ -8,8 +8,8 @@ public class GameBoard {
 
         int[][] board = createBoard(width, height);
 
-        int characterX = 0;
-        int characterY = 0;
+        int characterX = width / 2;
+        int characterY = height / 2;
         board[characterY][characterX] = 1;
 
         playGame(board, width, height, characterX, characterY);
