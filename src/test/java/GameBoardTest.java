@@ -3,6 +3,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class GameBoardTest {
 
+    /*
+    @BeforeEach // -> Wird vor jedem Test ausgeführt
+    void resetAllXY() {
+        //Setze x & y wieder auf 0. Das macht jeden Test wieder erwartbar, da immer von x&y=0 ausgegangen wird.
+        PlayerCharacter.x =0;
+        PlayerCharacter.y =0;
+    }
+     */
     @Test
     public void testMoveHorizontal_LeftWithinBounds() {
         int width = 5;
